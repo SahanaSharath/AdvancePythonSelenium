@@ -1,5 +1,5 @@
 import pytest
-from SeleniumAutomation.framework.base.Extended_Webdriver import Extended_Webdriver
+from framework.base.Extended_Webdriver import Extended_Webdriver
 
 @pytest.fixture()
 def setUp():

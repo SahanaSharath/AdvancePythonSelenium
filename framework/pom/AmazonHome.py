@@ -1,4 +1,4 @@
-from SeleniumAutomation.framework.base.Selenium_driver import SeleniumDriver
+from framework.base.Selenium_driver import SeleniumDriver
 import time
 
 class AmazonHome(SeleniumDriver):

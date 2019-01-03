@@ -1,4 +1,4 @@
-from SeleniumAutomation.framework.pom.LoginPage import LoginPage
+from framework.pom.LoginPage import LoginPage
 import pytest
 import unittest
 

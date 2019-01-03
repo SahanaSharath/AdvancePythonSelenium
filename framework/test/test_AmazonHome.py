@@ -1,4 +1,4 @@
-from SeleniumAutomation.framework.pom.AmazonHome import AmazonHome
+from framework.pom.AmazonHome import AmazonHome
 import pytest
 import unittest
 
