@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 from framework.utilties.custom_logger import customLogger
 import logging
+import json
 
 class SeleniumDriver():
 
@@ -104,3 +105,10 @@ class SeleniumDriver():
             self.log.info("Element not appeared on the web page")
             print_stack()
         return element
+
+    def jsonFileRead(self, filePath):
+        jsonFile = open(filePath, 'r')
+        name = jsonFile.read()
+        data = json.loads(name)
+        jsonFile.close()
+        return data
